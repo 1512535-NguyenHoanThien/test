@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivationPage_ActivationRequestFailure_Message" xml:space="preserve">
+    <value>Could not activate license key due to the following error: {0}</value>
+  </data>
+  <data name="ActivationPage_ActivationRequest_CommunicationExceptionMessage" xml:space="preserve">
+    <value>Problems communicating with the activation service.</value>
+  </data>
+  <data name="ActivationPage_ActivationRequest_TimeoutExceptionMessage" xml:space="preserve">
+    <value>Failed to get a timely activation response.</value>
+  </data>
+  <data name="ActivationPage_ActivationResult_DeniedBlocked" xml:space="preserve">
+    <value>This activation request has been blocked.  Please print the information on this screen and contact QSR International.</value>
+  </data>
+  <data name="ActivationPage_ActivationResult_DeniedInvalidMatch" xml:space="preserve">
+    <value>Product could not be activated. Please check all details and try again.  If the problem persists please contact QSR International.</value>
+  </data>
+  <data name="ActivationPage_ActivationResult_DeniedNonGenuineLicense" xml:space="preserve">
+    <value>A non-genuine license key has been detected. This license key will not be activated.</value>
+  </data>
+  <data name="ActivationPage_ActivationResult_DeniedRecentActivation" xml:space="preserve">
+    <value>This license key has already been activated.  Please print the information on this screen and contact QSR International.</value>
+  </data>
+  <data name="ActivationPage_ActivationResult_InvalidDetails" xml:space="preserve">
+    <value>Product could not be activated. Please check all details and try again.  If the problem persists please contact QSR International.</value>
+  </data>
+  <data name="ActivationPage_ActivationResult_InvalidLicense" xml:space="preserve">
+    <value>Invalid license.</value>
+  </data>
+  <data name="ActivationPage_ActivationResult_InvalidProductVersion" xml:space="preserve">
+    <value>This is not a valid QSR product version.</value>
+  </data>
+  <data name="ActivationPage_ActivationResult_NoRequestSent" xml:space="preserve">
+    <value>Some of the data you have entered is invalid. Please check the data and try again.</value>
+  </data>
+  <data name="ActivationPage_ActivationResult_Unknown" xml:space="preserve">
+    <value>An unexpected activation error has occurred. If the problem persists please contact QSR International.</value>
+  </data>
+  <data name="ActivationPage_MandatoryFieldCheck_Message" xml:space="preserve">
+    <value>First Name, Last Name, Country and Email must be filled in before submitting the activation request.</value>
+  </data>
+  <data name="ActivationPage_NoActivationResponse_Message" xml:space="preserve">
+    <value>No activation response received. Please try again.</value>
+  </data>
+  <data name="ActivationPage_SuccessfulActivationResult_Message" xml:space="preserve">
+    <value>License Key {0} has now been activated.</value>
+  </data>
+  <data name="AddLicensePage_Caption" xml:space="preserve">
+    <value>Add License</value>
+  </data>
+  <data name="AddLicensePage_Label_LicenseKey" xml:space="preserve">
+    <value>License Key</value>
+  </data>
+  <data name="Allocation_Label_NamedUsersHeader" xml:space="preserve">
+    <value>The following users are allocated a license</value>
+  </data>
+  <data name="Allocation_Label_TotalCALs" xml:space="preserve">
+    <value>Total CALs</value>
+  </data>
+  <data name="Allocation_Label_TotalConcurrentLicenses" xml:space="preserve">
+    <value>Total concurrent user licenses</value>
+  </data>
+  <data name="Allocation_Label_TotalNamedUsers" xml:space="preserve">
+    <value>Total named user licenses</value>
+  </data>
+  <data name="ConnectionPage_ClientAccessType_ConcurrentUser" xml:space="preserve">
+    <value>Concurrent User</value>
+  </data>
+  <data name="ConnectionPage_ClientAccessType_NamedUser" xml:space="preserve">
+    <value>Named User</value>
+  </data>
+  <data name="ConnectionPage_Column_ClientAccessType" xml:space="preserve">
+    <value>Client access type</value>
+  </data>
+  <data name="ConnectionPage_Column_FullName" xml:space="preserve">
+    <value>Account name</value>
+  </data>
+  <data name="ConnectionPage_Column_Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ConnectionPage_Column_StartTime" xml:space="preserve">
+    <value>Connection start time</value>
+  </data>
+  <data name="ConnectionPage_Column_UserName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="ConnectionPage_Label_ConnectedToProjects" xml:space="preserve">
+    <value>Connected to projects</value>
+  </data>
+  <data name="ConnectionPage_Label_ConnectedUsers" xml:space="preserve">
+    <value>Connected Users</value>
+  </data>
+  <data name="ConnectionPage_Label_GroupMembership" xml:space="preserve">
+    <value>Group Membership</value>
+  </data>
+  <data name="Generic_Button_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Generic_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Generic_Button_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Generic_Button_Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="HomePage_ActivateCommandString_Activate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="HomePage_ActivateCommandString_Deactivate" xml:space="preserve">
+    <value>Deactivate</value>
+  </data>
+  <data name="HomePage_ActivationStatus_Activated" xml:space="preserve">
+    <value>Activated</value>
+  </data>
+  <data name="HomePage_ActivationStatus_Expired" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="HomePage_ActivationStatus_PendingActivation" xml:space="preserve">
+    <value>Pending Activation</value>
+  </data>
+  <data name="HomePage_DeactivationRequest_CommunicationExceptionMessage" xml:space="preserve">
+    <value>Problems communicating with the deactivation service.</value>
+  </data>
+  <data name="HomePage_DeactivationRequest_FailureMessage" xml:space="preserve">
+    <value>The License Key '{0}' failed to deactivate due to the following error: {1}</value>
+  </data>
+  <data name="HomePage_DeactivationRequest_ProcessingMessage" xml:space="preserve">
+    <value>Deactivating License Key {0}...</value>
+  </data>
+  <data name="HomePage_DeactivationRequest_TimeoutExceptionMessage" xml:space="preserve">
+    <value>Failed to get a timely deactivation response.</value>
+  </data>
+  <data name="HomePage_DeactivationResult_SuccessfulMessage" xml:space="preserve">
+    <value>License Key {0} has now been deactivated.</value>
+  </data>
+  <data name="HomePage_DeactivationResult_Unknown" xml:space="preserve">
+    <value>An unexpected deactivation error has occurred.  If the problem persists please contact QSR International.</value>
+  </data>
+  <data name="HomePage_Label_Licenses" xml:space="preserve">
+    <value>Product licenses</value>
+  </data>
+  <data name="HomePage_Label_TotalActiveCALs" xml:space="preserve">
+    <value>Total Active CALs</value>
+  </data>
+  <data name="HomePage_Label_TotalLicenseProcessor" xml:space="preserve">
+    <value>Total Licensed Processors</value>
+  </data>
+  <data name="HomePage_LicenseEdition_Perpetual" xml:space="preserve">
+    <value>Perpetual</value>
+  </data>
+  <data name="HomePage_LicenseEdition_Trial" xml:space="preserve">
+    <value>Trial</value>
+  </data>
+  <data name="HomePage_LicenseEdition_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="HomePage_Notification_Unauthorized" xml:space="preserve">
+    <value>You are not authorized to access the NVivo Server 11 Manager.  Please consult your Systems Administrator.</value>
+  </data>
+  <data name="HomePage_Notification_Welcome" xml:space="preserve">
+    <value>Welcome to NVivo Server 11 Manager</value>
+  </data>
+  <data name="HomePage_RemoveNamedUserAccess_CommunicationExceptionMessage" xml:space="preserve">
+    <value>Failed to remove named user access from the specified users as there was a communications failure with the server.</value>
+  </data>
+  <data name="HomePage_RemoveNamedUserAccess_ConfirmationMessage" xml:space="preserve">
+    <value>Do you wish to remove named user access from the selected users?</value>
+  </data>
+  <data name="HomePage_RemoveNamedUserAccess_PleaseWaitMessage" xml:space="preserve">
+    <value>Please wait while removing named user access...</value>
+  </data>
+  <data name="HomePage_RemoveNamedUserAccess_RemoveFailureMessage" xml:space="preserve">
+    <value>Named user access could not be removed from the following users due to an unexpected error:</value>
+  </data>
+  <data name="HomePage_RemoveNamedUserAccess_TimeoutExceptionMessage" xml:space="preserve">
+    <value>Failed to remove named user access from the specified users as a timely response was not received from the server.</value>
+  </data>
+  <data name="HomePage_RemoveNamedUserAccess_UnknownErrorMessage" xml:space="preserve">
+    <value>An unexpected error has prevented the removal of named user access from the specified users.</value>
+  </data>
+  <data name="HomePage_Tab_Allocation" xml:space="preserve">
+    <value>Allocation</value>
+  </data>
+  <data name="HomePage_Tab_Connections" xml:space="preserve">
+    <value>Connections</value>
+  </data>
+  <data name="HomePage_Tab_Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="HomePage_Tab_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="HomePage_Tab_Licenses" xml:space="preserve">
+    <value>Licenses</value>
+  </data>
+  <data name="HomePage_Tab_Licensing" xml:space="preserve">
+    <value>Licensing</value>
+  </data>
+  <data name="HomePage_Tab_Projects" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="HomePage_Tab_Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="ProjectConnectionPage_Button_ConfirmRepairMsg" xml:space="preserve">
+    <value>There are connections to the project.
+Are you sure that you want to close all the connections and proceed with compact and repair?</value>
+  </data>
+  <data name="ProjectConnectionPage_Button_Repair" xml:space="preserve">
+    <value>Repair...</value>
+  </data>
+  <data name="ProjectConnectionPage_Column_DataFileSize" xml:space="preserve">
+    <value>Data File Size (MB)</value>
+  </data>
+  <data name="ProjectConnectionPage_Column_LogFileSize" xml:space="preserve">
+    <value>Log File Size (MB)</value>
+  </data>
+  <data name="ProjectConnectionPage_Column_ProjectName" xml:space="preserve">
+    <value>Project Name</value>
+  </data>
+  <data name="ProjectConnectionPage_Column_ProjectVersion" xml:space="preserve">
+    <value>Project Format</value>
+  </data>
+  <data name="ProjectConnectionPage_CompactRepairCompleted" xml:space="preserve">
+    <value>Compact and repair completed.</value>
+  </data>
+  <data name="ProjectConnectionPage_Label_ConnectedUsers" xml:space="preserve">
+    <value>Connected Users</value>
+  </data>
+  <data name="ProjectConnectionPage_Label_PrimaryDataFile" xml:space="preserve">
+    <value>Data file</value>
+  </data>
+  <data name="ProjectConnectionPage_Label_PrimaryLogFile" xml:space="preserve">
+    <value>Log file</value>
+  </data>
+  <data name="ProjectConnectionPage_Label_Projects" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="ProjectConnectionPage_NoPermissionRepairServerProject" xml:space="preserve">
+    <value>You do not have permission to repair the server project.</value>
+  </data>
+  <data name="ProjectConnectionPage_ServerAuthenticationError" xml:space="preserve">
+    <value>You are not authenticated for the action.</value>
+  </data>
+  <data name="ProjectConnectionPage_ServerProjectDoesNotExist" xml:space="preserve">
+    <value>The project does not exist.</value>
+  </data>
+  <data name="ProjectConnectionPage_ServerProjectExclusiveOpen" xml:space="preserve">
+    <value>The project is currently being opened exclusively by another connection.</value>
+  </data>
+  <data name="ProjectConnectionPage_ServerSQLError" xml:space="preserve">
+    <value>Database operation error has occurred on the Server.</value>
+  </data>
+  <data name="SelectUserPage_Caption" xml:space="preserve">
+    <value>Select Users</value>
+  </data>
+  <data name="SelectUserPage_DomainInvalidMessage" xml:space="preserve">
+    <value>Location {0} not found.</value>
+  </data>
+  <data name="SelectUserPage_LocationEmptyMessage" xml:space="preserve">
+    <value>Location can only be empty if it is included in all user names.</value>
+  </data>
+  <data name="SelectUserPage_UserNameEmptyMessage" xml:space="preserve">
+    <value>User Name cannot be empty.</value>
+  </data>
+  <data name="SelectUserPage_UserNotFoundMessage" xml:space="preserve">
+    <value>User {0} not found.</value>
+  </data>
+  <data name="SelectUser_Button_CheckNames" xml:space="preserve">
+    <value>Check Names</value>
+  </data>
+  <data name="SelectUser_GrantNamedUserAccess_AlreadyNamedUserMessage" xml:space="preserve">
+    <value>The following users already have named user access:</value>
+  </data>
+  <data name="SelectUser_GrantNamedUserAccess_CommunicationExceptionMessage" xml:space="preserve">
+    <value>Failed to grant named user access to the specified users as there was a communications failure with the server.</value>
+  </data>
+  <data name="SelectUser_GrantNamedUserAccess_GeneralExceptionMessage" xml:space="preserve">
+    <value>An unexpected error has prevented named user access from being granted to the specified users.</value>
+  </data>
+  <data name="SelectUser_GrantNamedUserAccess_GrantFailureMessage" xml:space="preserve">
+    <value>The following users were not granted named user access due to an unexpected error:</value>
+  </data>
+  <data name="SelectUser_GrantNamedUserAccess_GroupsNotAllowedMessage" xml:space="preserve">
+    <value>Named user access cannot be granted to groups.</value>
+  </data>
+  <data name="SelectUser_GrantNamedUserAccess_InsufficientCALs" xml:space="preserve">
+    <value>None of the specified users have been granted named user access as there are insufficient CALs.</value>
+  </data>
+  <data name="SelectUser_GrantNamedUserAccess_TimeoutExceptionMessage" xml:space="preserve">
+    <value>Failed to grant named user access to the specified users as a timely response was not received from the server.</value>
+  </data>
+  <data name="SelectUser_Label_FromThisLocation" xml:space="preserve">
+    <value>From this location</value>
+  </data>
+  <data name="SelectUser_Label_UserName" xml:space="preserve">
+    <value>Enter the user names to select</value>
+  </data>
+  <data name="ServerUserGroupPage_Label_Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="ServerUserGroupPage_Label_Members" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="ServerUserGroupPage_MemberRemovalDisallowed" xml:space="preserve">
+    <value>Cannot remove the selected member from the Administrators group.
+
+You cannot remove yourself, and/or the Administrators group must have at least one member.</value>
+  </data>
+  <data name="SelectUser_Label_UserNameOrGroups" xml:space="preserve">
+    <value>Enter the user names or groups to select</value>
+  </data>
+  <data name="HomePage_HomeTab_Version" xml:space="preserve">
+    <value>NVIVO SERVER</value>
+  </data>
+  <data name="HomePage_HomeTab_Copyright" xml:space="preserve">
+    <value>Copyright © QSR International Pty Ltd. 1999-2013. All rights reserved. This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it may result in severe civil and criminal penalties and will be prosecuted to the maximum extent possible under the law.</value>
+  </data>
+  <data name="HomePage_HomeTab_EULA" xml:space="preserve">
+    <value>View your license agreement</value>
+  </data>
+  <data name="HomePage_HomeTab_QSRLink" xml:space="preserve">
+    <value>qsrinternational.com</value>
+  </data>
+  <data name="HomePage_HomeTab_NotificationPane_NoCALs" xml:space="preserve">
+    <value>There are no activated non-expired CALs in the system</value>
+  </data>
+  <data name="HomePage_HomeTab_NotificationsPane_NamedUsersError" xml:space="preserve">
+    <value>The number of named users ({0}) exceeds the number of activated non-expired CALs ({1})</value>
+  </data>
+  <data name="RepairProjectDialog_AllowDataLoss" xml:space="preserve">
+    <value>Allow data loss</value>
+  </data>
+  <data name="RepairProjectDialog_AllowDataLossConfirmation" xml:space="preserve">
+    <value>This operation may cause data loss. 
+Please ensure you backup your project before proceeding. 
+Are you sure you still want to repair the project where data loss may occur?</value>
+  </data>
+  <data name="RepairProjectDialog_Caption" xml:space="preserve">
+    <value>Repair Project</value>
+  </data>
+  <data name="HomePage_HomeTab_Server" xml:space="preserve">
+    <value>SERVER</value>
+  </data>
+  <data name="HomePage_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="HomePage_LoggedInAs" xml:space="preserve">
+    <value>Logged in as:</value>
+  </data>
+  <data name="HomePage_LoggedInAt" xml:space="preserve">
+    <value>Logged in at:</value>
+  </data>
+  <data name="HomePage_SelectUser_ErrorMessage" xml:space="preserve">
+    <value>Please select a user to remove</value>
+  </data>
+  <data name="AllocationTab_CALAllocation" xml:space="preserve">
+    <value>CAL Allocation</value>
+  </data>
+  <data name="AllocationTab_CALs" xml:space="preserve">
+    <value>CALs</value>
+  </data>
+  <data name="AllocationTab_CALsPerUser" xml:space="preserve">
+    <value>CALs Per User</value>
+  </data>
+  <data name="AllocationTab_ConcurrentUsers" xml:space="preserve">
+    <value>Concurrent Users</value>
+  </data>
+  <data name="AllocationTab_NamedUsers" xml:space="preserve">
+    <value>Named Users</value>
+  </data>
+  <data name="AllocationTab_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="AllocationTab_Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="Allocation_Grid_FullNameColumn" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="Allocation_Grid_UserNameColumn" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Licenses_Grid_CALsColumn" xml:space="preserve">
+    <value>CALs</value>
+  </data>
+  <data name="Licenses_Grid_DateAddedColumn" xml:space="preserve">
+    <value>Date Added</value>
+  </data>
+  <data name="Licenses_Grid_EditionColumn" xml:space="preserve">
+    <value>Edition</value>
+  </data>
+  <data name="Licenses_Grid_ExpiryDateColumn" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="Licenses_Grid_LicenseKeyColumn" xml:space="preserve">
+    <value>License Key</value>
+  </data>
+  <data name="Licenses_Grid_ProcessorsColumn" xml:space="preserve">
+    <value>Processors</value>
+  </data>
+  <data name="Licenses_Grid_StatusColumn" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="UsersPage_GroupTab_AdministratorsGroup" xml:space="preserve">
+    <value>Administrators</value>
+  </data>
+  <data name="UsersPage_GroupTab_NamedUsersGroup" xml:space="preserve">
+    <value>Named Users</value>
+  </data>
+  <data name="UsersPage_GroupTab_ProjectCreatorsGroup" xml:space="preserve">
+    <value>Project Creators</value>
+  </data>
+  <data name="UsersPage_GroupTab_UsersGroup" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="ConnectedUsers_Grid_AccountNameColumn" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="ConnectedUsers_Grid_ClientAccessTypeColumn" xml:space="preserve">
+    <value>Client Access Type</value>
+  </data>
+  <data name="ConnectedUsers_Grid_ConnectionStartTimeColumn" xml:space="preserve">
+    <value>Connection Start Time</value>
+  </data>
+  <data name="ConnectedUsers_Grid_UserNameColumn" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="ActivationPage_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="ActivationPage_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+</root>

@@ -124,7 +124,7 @@
     <value>Test1: {0}</value>
   </data>
   <data name="ActivationPage_ActivationRequestFailure_Message2" xml:space="preserve">
-    <value>Test2: {1}</value>
+    <value>Test2: {9999}</value>
   </data>
   <data name="ActivationPage_ActivationRequestFailure_Message2" xml:space="preserve">
     <value>TestThien</value>

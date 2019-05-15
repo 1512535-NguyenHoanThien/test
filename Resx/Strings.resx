@@ -121,15 +121,6 @@
     <value>Could not activate license key due to the following error: {0}</value>
   </data>
   <data name="ActivationPage_ActivationRequest_CommunicationExceptionMessage" xml:space="preserve">
-    <value>Problems communicating with the activation service.</value>
-  </data>
-  <data name="ActivationPage_ActivationRequest_TimeoutExceptionMessage" xml:space="preserve">
-    <value>Failed to get a timely activation response.</value>
-  </data>
-  <data name="ActivationPage_ActivationResult_DeniedBlocked" xml:space="preserve">
-    <value>This activation request has been blocked.  Please print the information on this screen and contact QSR International.</value>
-  </data>
-  <data name="ActivationPage_ActivationResult_DeniedInvalidMatch" xml:space="preserve">
-    <value>Product could not be activated. Please check all details and try again.  If the problem persists please contact QSR International.</value>
+    <value>Test</value>
   </data>
 </root>

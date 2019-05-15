@@ -121,6 +121,9 @@
     <value>Could not activate license key due to the following error: {0}</value>
   </data>
   <data name="ActivationPage_ActivationRequest_CommunicationExceptionMessage" xml:space="preserve">
-    <value>Test</value>
+    <value>Test0</value>
+  </data>
+  <data name="ActivationPage_ActivationRequest_CommunicationExceptionMessage" xml:space="preserve">
+    <value>Test2</value>
   </data>
 </root>

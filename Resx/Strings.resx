@@ -549,6 +549,9 @@ Are you sure you still want to repair the project where data loss may occur?</va
     <value>Address</value>
   </data>
   <data name="ActivationPage_CancelButton" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Cancel More and more and more</value>
+  </data>
+  <data name="ActivationPage_CancelButton2" xml:space="preserve">
+    <value>Cancel more and more</value>
   </data>
 </root>

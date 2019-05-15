@@ -127,6 +127,9 @@
     <value>String 5</value>
   </data>
   <data name="ActivationPage_ActivationRequest_CommunicationExceptionMessage" xml:space="preserve">
-    <value>String 5.2</value>
+    <value>String 5.222222</value>
+  </data>
+  <data name="ActivationPage_ActivationRequest_CommunicationExceptionMessage" xml:space="preserve">
+    <value>String 5.3</value>
   </data>
 </root>

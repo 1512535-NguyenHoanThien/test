@@ -124,6 +124,12 @@
     <value>Test1: {0}</value>
   </data>
   <data name="ActivationPage_ActivationRequestFailure_Message2" xml:space="preserve">
+    <value>String 000000 . resx</value>
+  </data>
+  <data name="ActivationPage_ActivationRequestFailure_Message2" xml:space="preserve">
     <value>String 2 . resx</value>
+  </data>
+  <data name="ActivationPage_ActivationRequestFailure_Message2" xml:space="preserve">
+    <value>String 4444 . resx</value>
   </data>
 </root>
